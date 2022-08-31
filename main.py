@@ -1,16 +1,17 @@
 import time
-from webbrowser import get
+time_duration = 2
 start = time.time()
 
 print("Os exames estão prontos!")
 opcaoEnvio = input('Deseja enviar SMS para os clientes? 1 - Sim ou 2 - Não: ')
 numeroOpcao = int(opcaoEnvio)
 if (numeroOpcao == 1):
-    print("Enviando")
+    print("Enviando...")
+    time.sleep(time_duration)
     atendimento = ('Luiz', '38 anos', 'Exames gerais de laboratório', '49999241385')
     len(atendimento)
     nome, idade, exames, telefone = atendimento
-    txtMensagem = ('Prezado cliente, os resultados dos seus exames estão disponíveis para retirada.')
+    txtMensagem = ('"Prezado cliente, os resultados dos seus exames estão disponíveis para retirada."')
     celular = "55" + telefone
     message = txtMensagem
     response = celular, message
@@ -22,4 +23,4 @@ if (numeroOpcao == 1):
 else:  
     print('Não esqueça de enviar os SMS, até mais!')
 end = time.time()
-# print("Tempo de execução: " + str(end - start))
+time.sleep(time_duration)
