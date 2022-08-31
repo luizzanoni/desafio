@@ -32,3 +32,4 @@ else:
 
 end = time.time()
 # print("Tempo de execução: " + str(end - start))
+
