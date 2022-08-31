@@ -1,10 +1,17 @@
 # Desafio do programador!
 
 Para fazer a leitura do código, necessitará da biblioteca do Python3 instalada em seu computador.
-Abra seu terminal e execute o seguinte comando.
+
+
+Para baixar no windows 10 acesse: @[Python](https://www.python.org/downloads/).
+
+Após biblioteca instalada, baixe o arquivo "main.py"
+
+Abra seu VSCODE, localize o arquivo dentro de suas pastas e execute o seguinte comando.
 ```
-PIP INSTALL PYTHON3
+python3 main.py
 ```
-Inciado em Python.
-Rode localmente em seu terminarl para ter acesso ao programa.
+
+Inciará o código e você escolherá as opções impostas (encaminhar ou não as mensagens).
+
 

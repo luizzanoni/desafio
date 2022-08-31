@@ -1,12 +1,12 @@
 import time
-time_duration = 2
+timeDuration = 2
 
 print("Os exames estão prontos!")
-opcaoEnvio = input('Deseja enviar SMS para os clientes? 1 - Sim ou 2 - Não: ')
+opcaoEnvio = input('Deseja enviar SMS para os clientes? 1 - Sim ou 2 - Não:\n ')
 numeroOpcao = int(opcaoEnvio)
 if (numeroOpcao == 1):
     print("Enviando...")
-    time.sleep(time_duration)
+    time.sleep(timeDuration)
     atendimento = ('Luiz', '38 anos', 'Exames gerais de laboratório', '49999241385')
     len(atendimento)
     nome, idade, exames, telefone = atendimento
@@ -22,4 +22,4 @@ if (numeroOpcao == 1):
 else:
     print('Não esqueça de enviar os SMS, até mais!')
 end = time.time()
-time.sleep(time_duration)
+time.sleep(timeDuration)
