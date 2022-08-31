@@ -1,6 +1,5 @@
 import time
 time_duration = 2
-start = time.time()
 
 print("Os exames estão prontos!")
 opcaoEnvio = input('Deseja enviar SMS para os clientes? 1 - Sim ou 2 - Não: ')
@@ -18,9 +17,9 @@ if (numeroOpcao == 1):
     if response == False:
         print('Falha ao enviar SMS, Verifique o Numero e tente novamente')
     else:
-        print('SMS Enviado Com Sucesso para: ' + telefone )
+        print('SMS Enviado Com Sucesso para ' + nome + ' no telefone: ' + telefone )
     print(txtMensagem)
-else:  
+else:
     print('Não esqueça de enviar os SMS, até mais!')
 end = time.time()
 time.sleep(time_duration)
